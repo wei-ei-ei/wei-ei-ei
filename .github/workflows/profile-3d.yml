@@ -1,0 +1,31 @@
+# 3D 立体贡献图生成器（BEPb 同款效果）
+# 放到 wei-ei-ei/wei-ei-ei 仓库的 .github/workflows/profile-3d.yml
+# 运行后会在仓库里生成 profile-3d-contrib/profile-green-animate.svg
+name: generate 3d-contrib
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # 每天自动刷新
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "docs: update 3d-contrib graph" || echo "no changes"
+          git push
