@@ -26,7 +26,7 @@
 - 🧪 Ships questionable experiments anyway
 - 🤖 Talks to AI more than to humans. We vibe.
 - 🌙 Founding member of the 3 AM Debugging Club
-- 🚀 Motto: infinite progress
+- 🚀 Infinite progress!
 
 ## 🧰 My Arsenal
 
