@@ -26,7 +26,7 @@
 - 🧪 Ships questionable experiments anyway
 - 🤖 Talks to AI more than to humans. We vibe.
 - 🌙 Founding member of the 3 AM Debugging Club
-- 🚀 Infinite progress!
+- 🚀 Motto: infinite progress
 
 ## 🧰 My Arsenal
 
@@ -115,11 +115,10 @@
 
 ## 📮 Find Me
 
-<!-- Replace with your own email / bilibili link -->
 <div align="center">
 
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
-[![Bilibili](https://img.shields.io/badge/-Bilibili-00A1D6?style=flat-square&logo=bilibili&logoColor=white)](https://space.bilibili.com/your-UID)
+[![Gmail](https://img.shields.io/badge/-morgagreene866%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:morgagreene866@gmail.com)
+[![Outlook](https://img.shields.io/badge/-rxw789789%40outlook.com-0078D4?style=flat-square)](mailto:rxw789789@outlook.com)
 
 </div>
 
@@ -134,7 +133,7 @@ while (alive) {
 }
 ```
 
-## 🎬 Never Gonna Give You Up
+## 🎁 Free Reward, No Clickbait
 
 <div align="center">
 
