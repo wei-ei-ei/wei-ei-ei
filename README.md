@@ -47,7 +47,7 @@
 
 </div>
 
-## 🍿 Meme Break
+## 🎮 Loading Screen
 
 <div align="center">
 
@@ -57,7 +57,7 @@
 
 </div>
 
-## 🐍 The Snake Is Hungry
+## 🐍 My Pet
 
 <!-- Generated daily by GitHub Actions -->
 <div align="center">
